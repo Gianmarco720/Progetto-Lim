@@ -1,0 +1,75 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  height: 700px;
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+
+/* logo e testo */
+#logo{
+  width: auto;
+  height: 100px;
+  margin-left: 39%;
+  margin-top: auto;
+}
+
+#titolo{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #00ff00;
+}
+
+
+nav{
+  text-align: center;
+  background-color: #00ff00;
+  padding: 10px;
+}
+
+h2{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* posizione monopattini */
+.posizione{
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+
+/* stato carica */
+.carica{
+  height: 30px;
+  background-color: #ffb366;
+  margin-right: 55%;
+  border-radius: 5px;
+}
+
+/* stato carica 1 */
+.carica1{
+  height: 30px;
+  background-color: #33cc00;
+  margin-right: 35%;
+  border-radius: 5px;
+}
+
+/* stato carica 2 */
+.carica2{
+  height: 30px;
+  background-color: #ff3333;
+  margin-right: 85%;
+  border-radius: 5px;
+}
